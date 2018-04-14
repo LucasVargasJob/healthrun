@@ -20,3 +20,5 @@ git clone git@github.com:robsongajunior/healthrun.git
 cd healthrun
 npm install && npm start
 ```
+
+Agora basta abrir no browser a url: [http://localhost:[port]](http://localhost:[port]), [port] foi informada no terminal logo após do comando __npm start__.
