@@ -21,7 +21,7 @@ let httpAPI = {};
 
     httpAPI.request = (url, params) => {
         return new Promise((resolve, reject) => {
-            return fetch(url, params).then((response) => {
+            fetch(url, params).then((response) => {
                 resolve(response);
             }).catch((error) => {
                 reject(error);
@@ -34,7 +34,7 @@ let httpAPI = {};
         params.method = 'GET';
 
         return new Promise((resolve, reject) => {
-            return httpAPI.request(url).then((response) => {
+            httpAPI.request(url).then((response) => {
                 resolve(response);
             }).catch((error) => {
                 reject(error);
@@ -47,7 +47,7 @@ let httpAPI = {};
         params.method = 'POST';
 
         return new Promise((resolve, reject) => {
-            return httpAPI.request(url).then((response) => {
+            httpAPI.request(url).then((response) => {
                 resolve(response);
             }).catch((error) => {
                 reject(error);
@@ -60,7 +60,7 @@ let httpAPI = {};
         params.method = 'DELETE';
 
         return new Promise((resolve, reject) => {
-            return httpAPI.request(url).then((response) => {
+            httpAPI.request(url).then((response) => {
                 resolve(response);
             }).catch((error) => {
                 reject(error);
@@ -73,7 +73,7 @@ let httpAPI = {};
         params.method = 'PUT';
 
         return new Promise((resolve, reject) => {
-            return httpAPI.request(url).then((response) => {
+            httpAPI.request(url).then((response) => {
                 resolve(response);
             }).catch((error) => {
                 reject(error);
