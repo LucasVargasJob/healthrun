@@ -1,5 +1,6 @@
 # development variable directories
 
+public/
 node_modules/
 dist/
 .Trash-1000

@@ -14,8 +14,12 @@
 
 
 ## COMO USAR/RODAR ??
+<< ATENÇÃO >>: não esqueça que para rodar o sass, deve ter o __ruby e sass__ instalado.
+
 
 ```bash
+npm install sass -g # instalando sass, não esqueça de ter instalado o ruby
+
 git clone git@github.com:robsongajunior/healthrun.git
 cd healthrun
 npm install && npm start
