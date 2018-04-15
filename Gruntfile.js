@@ -57,8 +57,15 @@ module.exports = function(grunt) {
         concat: {
             js: {
                 files: {
-                    './public/javascripts/concated.js': ['./sources/_js/*.js', '!./sources/_js/context.js'],
-                    './public/javascripts/context.js': ['./public/javascripts/concated.js', './sources/_js/context.js']
+                    './public/javascripts/concated.js': [
+                        './sources/_js/*.js',
+                        '!./sources/_js/context.js'
+                    ],
+
+                    './public/javascripts/context.js': [
+                        './public/javascripts/concated.js',
+                        './sources/_js/context.js'
+                    ]
                 }
             }
         }
@@ -74,7 +81,6 @@ module.exports = function(grunt) {
         'jshint',
         'sass',
         'copy:image',
-        'concat:js',
-        'copy:js'
+        'concat:js'
     ]);
 };
