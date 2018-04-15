@@ -8,7 +8,8 @@
     "scripts": {
         "start": "node ./bin/www",
         "test": "echo \"Error: no test specified\" && exit 1",
-        "preinstall": "npm i -g grunt-cli && npm i -g sass"
+        "preinstall": "npm i -g grunt-cli && npm i -g sass",
+        "builddev": "grunt"
     },
     "repository": {
         "type": "git",
