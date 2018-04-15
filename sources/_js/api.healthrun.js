@@ -17,7 +17,7 @@ let healthrunAPI = {};
     healthrunAPI.name = 'healthrunAPI';
     healthrunAPI.version = '0.0.1';
     healthrunAPI.description = 'A service to show you a new and fuuny way to have a health life.';
-
-
+    healthrunAPI.url = 'http://localhost';
+    healthrunAPI.port = '3000';
 })();
 
