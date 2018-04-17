@@ -13,7 +13,7 @@
     - Ferramenta de versionamento
 
 
-## COMO USAR/RODAR ??
+## FACIL INSTALAÇÃO
 << ATENÇÃO >>: não esqueça que para rodar o sass, deve ter o __ruby e sass__ instalado.
 
 
@@ -22,7 +22,16 @@ npm install sass -g # instalando sass, não esqueça de ter instalado o ruby
 
 git clone git@github.com:robsongajunior/healthrun.git
 cd healthrun
-npm install && npm start
+npm install
 ```
 
+## COMO BUILDAR?
+
+```bash
+npm run up
+
+```
+Este comando builda o projeto e levanta um servidor.
 Agora basta abrir no browser a url: [http://localhost:[port]](http://localhost:[port]), [port] foi informada no terminal logo após do comando __npm start__.
+
+
