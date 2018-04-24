@@ -33,6 +33,7 @@
     "globals" : {
         "httpAPI" : true,
         "healthrunAPI" : true,
-        "Promise": true
+        "Promise": true,
+        "google": true
     }
 }
